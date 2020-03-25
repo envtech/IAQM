@@ -1,0 +1,210 @@
+ *** AERMOD - VERSION  14134 ***   *** PM emission contribution                                             ***        03/25/20
+ *** AERMET - VERSION  14134 ***   ***                                                                      ***        15:50:37
+                                                                                                                       PAGE   1
+ **MODELOPTs:   NonDFAULT CONC      ELEV      BETA
+
+                                            ***     MODEL SETUP OPTIONS SUMMARY       ***
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+ **Model Is Setup For Calculation of Average CONCentration Values.
+  
+   --  DEPOSITION LOGIC  --
+ **NO GAS DEPOSITION Data Provided.
+ **NO PARTICLE DEPOSITION Data Provided.
+ **Model Uses NO DRY DEPLETION.  DRYDPLT  =  F
+ **Model Uses NO WET DEPLETION.  WETDPLT  =  F
+  
+ **Model Uses RURAL Dispersion Only.
+  
+ **Model Allows User-Specified Options:
+         1. Stack-tip Downwash.
+         2. Model Accounts for ELEVated Terrain Effects.
+         3. Use Calms Processing Routine.
+         4. Use Missing Data Processing Routine.
+         5. No Exponential Decay.
+  
+ **Other Options Specified:
+         CCVR_Sub - Meteorological data includes CCVR substitutions
+  
+ **Model Assumes No FLAGPOLE Receptor Heights.
+  
+ **The User Specified a Pollutant Type of:  PM10    
+  
+ **Model Calculates  1 Short Term Average(s) of:  24-HR
+     and Calculates PERIOD Averages
+  
+ **This Run Includes:      1 Source(s);       1 Source Group(s); and  160801 Receptor(s)
+  
+ **Model Set To Continue RUNning After the Setup Testing.
+
+ **The AERMET Input Meteorological Data Version Date:  14134
+  
+ **Output Options Selected:
+          Model Outputs Tables of PERIOD Averages by Receptor
+          Model Outputs Tables of Highest Short Term Values by Receptor (RECTABLE Keyword)
+          Model Outputs Separate Summary File of High Ranked Values (SUMMFILE Keyword)
+  
+ **NOTE:  The Following Flags May Appear Following CONC Values:  c for Calm Hours
+                                                                 m for Missing Hours
+                                                                 b for Both Calm and Missing Hours
+  
+ **Misc. Inputs:  Base Elev. for Pot. Temp. Profile (m MSL) =    13.00 ;  Decay Coef. =    0.000     ;  Rot. Angle =     0.0
+                  Emission Units = GRAMS/SEC                                ;  Emission Rate Unit Factor =   0.10000E+07
+                  Output Units   = MICROGRAMS/M**3                         
+  
+ **Approximate Storage Requirements of Model =     21.6 MB of RAM.
+  
+ **Detailed Error/Message File:   errors.out                                                                                      
+ **File Created for Event Model:  test.inp                                                                                        
+ **File for Summary of Results:   TEST.sum                                                                                        
+ *** AERMOD - VERSION  14134 ***   *** PM emission contribution                                             ***        03/25/20
+ *** AERMET - VERSION  14134 ***   ***                                                                      ***        15:50:37
+                                                                                                                       PAGE   2
+ **MODELOPTs:   NonDFAULT CONC      ELEV      BETA
+
+                                            *** METEOROLOGICAL DAYS SELECTED FOR PROCESSING ***
+                                                               (1=YES; 0=NO)
+
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1
+
+                NOTE:  METEOROLOGICAL DATA ACTUALLY PROCESSED WILL ALSO DEPEND ON WHAT IS INCLUDED IN THE DATA FILE.
+
+
+
+                                  *** UPPER BOUND OF FIRST THROUGH FIFTH WIND SPEED CATEGORIES ***
+                                                            (METERS/SEC)
+
+                                                 1.54,   3.09,   5.14,   8.23,  10.80,
+ *** AERMOD - VERSION  14134 ***   *** PM emission contribution                                             ***        03/25/20
+ *** AERMET - VERSION  14134 ***   ***                                                                      ***        15:50:37
+                                                                                                                       PAGE   3
+ **MODELOPTs:   NonDFAULT CONC      ELEV      BETA
+
+                                    *** UP TO THE FIRST 24 HOURS OF METEOROLOGICAL DATA ***
+
+   Surface file:   met_sfc.dat                                                                        Met Version:  14134
+   Profile file:   met_pro.dat                                                                     
+   Surface format: FREE                                                                                                     
+   Profile format: FREE                                                                                                     
+   Surface station no.:    47158                  Upper air station no.:    47158
+                  Name: NAMWON,KR                                  Name: NAMWON,KR                               
+                  Year:   2015                                     Year:   2015
+
+ First 24 hours of scalar data
+ YR MO DY JDY HR     H0     U*     W*  DT/DZ ZICNV ZIMCH  M-O LEN    Z0  BOWEN ALBEDO  REF WS   WD     HT  REF TA     HT
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 14 11 24 328 01  -99.0  0.100 -9.000 -9.000 -999.   73.      1.5  0.10   1.50   1.00    0.11   86.   10.0  284.2    2.0
+ 14 11 24 328 02  -99.0  0.100 -9.000 -9.000 -999.   73.      1.5  0.10   1.50   1.00    0.35  200.   10.0  284.3    2.0
+ 14 11 24 328 03  -99.0  0.100 -9.000 -9.000 -999.   73.      1.5  0.10   1.50   1.00    0.22  180.   10.0  284.6    2.0
+ 14 11 24 328 04  -99.0  0.100 -9.000 -9.000 -999.   73.      1.5  0.10   1.50   1.00    0.15   78.   10.0  284.5    2.0
+ 14 11 24 328 05  -99.0  0.100 -9.000 -9.000 -999.   73.      1.5  0.10   1.50   1.00    0.58  156.   10.0  285.4    2.0
+ 14 11 24 328 06  -99.0  0.100 -9.000 -9.000 -999.   73.      1.5  0.10   1.50   1.00    0.34  219.   10.0  284.6    2.0
+ 14 11 24 328 07  -99.0  0.100 -9.000 -9.000 -999.   73.      1.4  0.10   1.50   1.00    0.11   61.   10.0  283.7    2.0
+ 14 11 24 328 08  -99.0  0.100 -9.000 -9.000 -999.   73.      1.4  0.10   1.50   1.00    0.04  135.   10.0  283.4    2.0
+ 14 11 24 328 09  -99.0  0.100 -9.000 -9.000 -999.   73.      1.4  0.10   1.50   1.00    0.15  108.   10.0  283.3    2.0
+ 14 11 24 328 10  -99.0  0.100 -9.000 -9.000 -999.   73.      1.4  0.10   1.50   1.00    0.19  176.   10.0  283.6    2.0
+ 14 11 24 328 11  -99.0  0.100 -9.000 -9.000 -999.   73.      1.4  0.10   1.50   1.00    0.34  221.   10.0  284.1    2.0
+ 14 11 24 328 12  -99.0  0.100 -9.000 -9.000 -999.   73.      1.5  0.10   1.50   1.00    0.57  194.   10.0  284.5    2.0
+ 14 11 24 328 13  -99.0  0.100 -9.000 -9.000 -999.   73.      1.5  0.10   1.50   1.00    0.19  180.   10.0  284.6    2.0
+ 14 11 24 328 14  -99.0  0.100 -9.000 -9.000 -999.   73.      1.5  0.10   1.50   1.00    0.63  202.   10.0  284.9    2.0
+ 14 11 24 328 15  -99.0  0.100 -9.000 -9.000 -999.   73.      1.5  0.10   1.50   1.00    0.67  227.   10.0  284.8    2.0
+ 14 11 24 328 16  -99.0  0.100 -9.000 -9.000 -999.   73.      1.5  0.10   1.50   1.00    0.59  223.   10.0  284.4    2.0
+ 14 11 24 328 17  -99.0  0.100 -9.000 -9.000 -999.   73.      1.5  0.10   1.50   1.00    1.05  162.   10.0  284.4    2.0
+ 14 11 24 328 18  -99.0  0.164 -9.000 -9.000 -999.  153.      6.4  0.10   1.50   1.00    1.89   80.   10.0  284.5    2.0
+ 14 11 24 328 19  -99.0  0.147 -9.000 -9.000 -999.  129.      4.6  0.10   1.50   1.00    1.69  112.   10.0  284.4    2.0
+ 14 11 24 328 20  -99.0  0.100 -9.000 -9.000 -999.   73.      1.4  0.10   1.50   1.00    0.67  260.   10.0  283.8    2.0
+ 14 11 24 328 21  -99.0  0.100 -9.000 -9.000 -999.   73.      1.4  0.10   1.50   1.00    1.05  112.   10.0  283.7    2.0
+ 14 11 24 328 22  -99.0  0.122 -9.000 -9.000 -999.   98.      2.7  0.10   1.50   1.00    1.41   76.   10.0  283.6    2.0
+ 14 11 24 328 23  -99.0  0.272 -9.000 -9.000 -999.  326.     29.0  0.10   1.50   1.00    3.13   66.   10.0  283.6    2.0
+ 14 11 24 328 24  -99.0  0.415 -9.000 -9.000 -999.  614.    103.2  0.10   1.50   1.00    4.77   78.   10.0  283.8    2.0
+
+
+ First hour of profile data
+ YR MO DY HR HEIGHT F  WDIR    WSPD AMB_TMP sigmaA  sigmaW  sigmaV
+ 14 11 24 01   48.4 1   45.    5.10   264.2   99.0  -99.00  -99.00
+
+ F indicates top of profile (=1) or below (=0)
+ *** AERMOD - VERSION  14134 ***   *** PM emission contribution                                             ***        03/25/20
+ *** AERMET - VERSION  14134 ***   ***                                                                      ***        15:50:37
+                                                                                                                       PAGE   4
+ **MODELOPTs:   NonDFAULT CONC      ELEV      BETA
+
+                                        *** THE SUMMARY OF MAXIMUM PERIOD (    24 HRS) RESULTS ***
+
+
+                                    ** CONC OF PM10     IN MICROGRAMS/M**3                          **
+
+                                                                                                             NETWORK
+GROUP ID                       AVERAGE CONC                RECEPTOR  (XR, YR, ZELEV, ZHILL, ZFLAG)  OF TYPE  GRID-ID
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+ALL       1ST HIGHEST VALUE IS       1.95454 AT (  242490.00,   317070.00,   199.00,   199.00,    0.00)  DC          
+          2ND HIGHEST VALUE IS       1.95423 AT (  242490.00,   317080.00,   200.00,   200.00,    0.00)  DC          
+          3RD HIGHEST VALUE IS       1.95398 AT (  242490.00,   317060.00,   198.00,   198.00,    0.00)  DC          
+          4TH HIGHEST VALUE IS       1.95357 AT (  242500.00,   317060.00,   198.00,   198.00,    0.00)  DC          
+          5TH HIGHEST VALUE IS       1.95300 AT (  242490.00,   317090.00,   201.00,   201.00,    0.00)  DC          
+          6TH HIGHEST VALUE IS       1.95269 AT (  242500.00,   317040.00,   197.00,   197.00,    0.00)  DC          
+          7TH HIGHEST VALUE IS       1.95260 AT (  242490.00,   317050.00,   197.00,   197.00,    0.00)  DC          
+          8TH HIGHEST VALUE IS       1.95045 AT (  242500.00,   317050.00,   198.00,   198.00,    0.00)  DC          
+          9TH HIGHEST VALUE IS       1.94937 AT (  242500.00,   317070.00,   199.00,   199.00,    0.00)  DC          
+         10TH HIGHEST VALUE IS       1.94806 AT (  242500.00,   317020.00,   196.00,   196.00,    0.00)  DC          
+
+
+ *** RECEPTOR TYPES:  GC = GRIDCART
+                      GP = GRIDPOLR
+                      DC = DISCCART
+                      DP = DISCPOLR
+ *** AERMOD - VERSION  14134 ***   *** PM emission contribution                                             ***        03/25/20
+ *** AERMET - VERSION  14134 ***   ***                                                                      ***        15:50:37
+                                                                                                                       PAGE   5
+ **MODELOPTs:   NonDFAULT CONC      ELEV      BETA
+
+                                                *** THE SUMMARY OF HIGHEST 24-HR RESULTS ***
+
+
+                                    ** CONC OF PM10     IN MICROGRAMS/M**3                          **
+
+                                                      DATE                                                                    NETWORK
+GROUP ID                          AVERAGE CONC     (YYMMDDHH)             RECEPTOR  (XR, YR, ZELEV, ZHILL, ZFLAG)    OF TYPE  GRID-ID
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+  
+ALL      HIGH   1ST HIGH VALUE IS       1.95454  ON 14112424: AT (  242490.00,   317070.00,   199.00,   199.00,    0.00)  DC          
+
+
+ *** RECEPTOR TYPES:  GC = GRIDCART
+                      GP = GRIDPOLR
+                      DC = DISCCART
+                      DP = DISCPOLR
+ *** AERMOD - VERSION  14134 ***   *** PM emission contribution                                             ***        03/25/20
+ *** AERMET - VERSION  14134 ***   ***                                                                      ***        15:50:37
+                                                                                                                       PAGE   6
+ **MODELOPTs:   NonDFAULT CONC      ELEV      BETA
+
+ *** Message Summary : AERMOD Model Execution ***
+
+  --------- Summary of Total Messages --------
+  
+ A Total of            0 Fatal Error Message(s)
+ A Total of            1 Warning Message(s)
+ A Total of            0 Informational Message(s)
+
+ A Total of           24 Hours Were Processed
+
+ A Total of            0 Calm Hours Identified
+
+ A Total of            0 Missing Hours Identified (  0.00 Percent)
+  
+  
+    ******** FATAL ERROR MESSAGES ******** 
+               ***  NONE  ***         
+  
+  
+    ********   WARNING MESSAGES   ******** 
+ MX W492       1       METEXT: SURFDATA YR .NE. 1st YR of file, adj to match file StartYR 2014
